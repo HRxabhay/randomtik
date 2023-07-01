@@ -37,18 +37,16 @@ function openVideoPlayer(video) {
   const videoPlayer = document.getElementById('videoPlayer');
   const closeButton = document.getElementById('closeButton');
 
-  // Display the video player container
-  videoPlayerContainer.style.display = 'block';
+  // Set the video source
+  videoPlayer.src = video.videoUrl;
 
-  // Create the PlayerJS instance and load the video
-  const player = new Playerjs({
-    id: 'videoPlayer',
-    file: video.videoUrl
-  });
+  // Display the video player
+  videoPlayerContainer.style.display = 'block';
 
   // Close the video player on button click
   closeButton.addEventListener('click', () => {
     videoPlayerContainer.style.display = 'none';
-    player.api('unload');
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
   });
 }
