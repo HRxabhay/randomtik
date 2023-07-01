@@ -5,7 +5,7 @@
       "title": "Short Video 1",
       "description": "This is the first short video",
       "thumbnail": "path/to/thumbnail1.jpg",
-      "videoUrl": "path/to/video1.mp4",
+      "videoUrl": "https://youtube.com/shorts/LZguiEb17Mo?feature=share",
       "duration": "00:01:30"
     },
     {
