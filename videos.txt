@@ -1,28 +1,8 @@
-{
-  "videos": [
-    {
-      "id": "video1",
-      "title": "Short Video 1",
-      "description": "This is the first short video",
-      "thumbnail": "path/to/thumbnail1.jpg",
-      "videoUrl": "https://youtube.com/shorts/LZguiEb17Mo?feature=share",
-      "duration": "00:01:30"
-    },
-    {
-      "id": "video2",
-      "title": "Short Video 2",
-      "description": "This is the second short video",
-      "thumbnail": "path/to/thumbnail2.jpg",
-      "videoUrl": "path/to/video2.mp4",
-      "duration": "00:02:15"
-    },
-    {
-      "id": "video3",
-      "title": "Short Video 3",
-      "description": "This is the third short video",
-      "thumbnail": "path/to/thumbnail3.jpg",
-      "videoUrl": "path/to/video3.mp4",
-      "duration": "00:01:45"
-    }
-  ]
-}
+[
+   {"title":"Season 1","folder":
+      [
+      {"title":"Serie 1/1","file":"https://youtube.com/shorts/ar7jLih_sBY"},
+      {"title":"Serie 1/2","file":"URL"}
+      ]
+   }
+]
